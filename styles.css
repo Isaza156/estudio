@@ -1,0 +1,26 @@
+.menu-principal{
+    margin: 0 auto;
+    background-color: #000fff;
+    padding: 200px 100px 50px 0;
+    border: 20px dashed black;
+    width: 70%;
+    text-align: center;
+    color: black;
+    font-size: 1.2em;
+
+}
+.menu-principal li a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu-principal li a:hover{
+    background-color: black;
+}
+
+
+@media only screen and (max-width: 414px){
+    .menu-principal{
+        width: 80%;
+    }
+}

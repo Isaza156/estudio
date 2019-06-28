@@ -1,0 +1,56 @@
+body{
+    background-color:gray; 
+}
+
+header{
+display: inline-block;
+}
+
+nav li{
+    display: inline;
+}
+
+#contenedor {
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+    height: 60%;
+    background-color:antiquewhite;
+    font-size: 14px;
+    font-family: verdana;
+    font-style: italic;
+
+}
+
+#Seccion1{
+    background-color: aquamarine;
+}
+
+#Seccion3 img {
+    margin-top: 10px;;
+    width: 100px;
+    height: 100px;
+}
+
+@media only screen and (max-width: 414px){
+
+#contenedor {
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+    height: 60%;
+    background-color:aquamarine;
+    font-size: 14px;
+    font-family: verdana;
+    font-style: italic;
+}
+
+#Seccion1{
+    background-color: antiquewhite;
+    
+}
+#Seccion2 form label{
+text-align: center;
+
+}
+}
